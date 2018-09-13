@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "alwaysStrict": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "es5",
+    "rootDir": "components",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@yoshino/*": ["./*"],
+      "@docs/*": ["./docs/*"],
+    },
+  },
+  "include": [
+    "components",
+    "docs",
+  ],
+  "exclude": [
+    "components/*/__tests__"
+  ]
+}

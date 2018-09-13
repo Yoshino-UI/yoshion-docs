@@ -1,0 +1,46 @@
+@preCls: wrapper;
+
+.@{preCls} {
+  &-header {
+    height: 70px;
+    box-shadow: 0 2px 8px #f0f1f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-logo {
+    padding: 0 40px;
+    line-height: 70px;
+    font-size: 30px;
+    font-weight: 300;
+    display: inline-block;
+  }
+
+  &-wrapper {
+    margin-top: 40px;
+    display: flex;
+    padding-bottom: 80px;
+    min-height: 800px;
+  }
+
+  &-menu {
+    width: 256px;
+  }
+
+  &-container {
+    float: left;
+    width: calc(100% - 256px);
+    padding: 0 80px 144px 64px;
+  }
+
+  &-footer {
+    background: black;
+    height: 180px;
+  }
+
+  &-nav-menu {
+    float: right;
+    padding: 0 40px;
+  }
+}
