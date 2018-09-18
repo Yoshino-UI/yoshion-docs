@@ -20,7 +20,7 @@
   "homepage": "https://github.com/Yoshino-UI/Yoshino#readme",
   "scripts": {
     "dev": "webpack-dev-server",
-    "site": "webpack --mode=production --devtool=null",
+    "build": "webpack --mode=production --devtool=null",
     "precommit": "npm run lint",
     "lint:ts": "tslint -p .",
     "lint:less": "stylelint 'components/!(styles)/**/**.less' --syntax less",
